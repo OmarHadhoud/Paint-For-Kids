@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Action" Collapsed="true">
+    <Position X="21" Y="8.75" Width="1.5" />
+    <AssociationLine Name="pManager" Type="ApplicationManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.185" Y="-0.015" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAACQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Actions\Action.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SelectFigureAction" Collapsed="true">
+    <Position X="18.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Actions\SelectFigureAction.h</FileName>
+      <NewMemberFileName>Actions\AddRectAction.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationManager" Collapsed="true">
+    <Position X="22.75" Y="9.25" Width="1.5" />
+    <AssociationLine Name="FigList" Type="CFigure">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.36" Y="-0.065" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pIn" Type="Input" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="23.875" Y="9.25" />
+        <Point X="23.875" Y="8.281" />
+        <Point X="24.25" Y="8.281" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.268" Y="-0.411" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pOut" Type="Output">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.185" Y="0.235" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AYAAoAIAEIQAQBgAAAAAAAAAAAAAAQACAAAAABIAAAA=</HashCode>
+      <FileName>ApplicationManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pIn" />
+      <Field Name="pOut" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="FigList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CFigure" Collapsed="true">
+    <Position X="21" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAkgAAAAQAAAAAAAAABAAAAIAAAQAAAAI=</HashCode>
+      <FileName>Figures\CFigure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRectangle" Collapsed="true">
+    <Position X="18.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAMAAAAAAAAAA=</HashCode>
+      <FileName>Figures\CRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input" Collapsed="true">
+    <Position X="24.25" Y="8" Width="1.5" />
+    <AssociationLine Name="pWind" Type="window">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.14" Y="0.185" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAQAAAAAAEAAEAAAEAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>GUI\Input.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pWind" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Output" Collapsed="true">
+    <Position X="24.25" Y="10.5" Width="1.5" />
+    <AssociationLine Name="pWind" Type="window">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.14" Y="0.185" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAALAAAUAJAABgAAIgAAAQBAAQAAAAEAAIApAgAA=</HashCode>
+      <FileName>GUI\Output.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pWind" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="window" Collapsed="true">
+    <Position X="25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lJITjJAVABAAoEAUADQAkCDGASAH6FKIAEtkaGIGQME=</HashCode>
+      <FileName>CMUgraphicsLib\CMUgraphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLine" Collapsed="true">
+    <Position X="18.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figures\CLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddLineAction" Collapsed="true">
+    <Position X="18.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAAAAAQQAAACAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\AddLineAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTriangle" Collapsed="true">
+    <Position X="18.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Figures\CTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRhomb" Collapsed="true">
+    <Position X="18.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Figures\CRhomb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEllipse" Collapsed="true">
+    <Position X="18.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIIAA=</HashCode>
+      <FileName>Figures\CEllipse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddTriangleAction" Collapsed="true">
+    <Position X="18.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAARAAAAACQQAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\AddTriangleAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddRhombAction" Collapsed="true">
+    <Position X="18.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAARAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Actions\AddRhombAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddEllipseAction" Collapsed="true">
+    <Position X="18.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAQAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Actions\AddEllipseAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
